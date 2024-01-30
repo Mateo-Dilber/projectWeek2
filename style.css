@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#map-container {
+    width: 50%;
+    height: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-container,
+#emergency-container {
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#search-input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#info-container {
+    padding: 20px;
+    background-color: #ddd;
+    text-align: center;
+}

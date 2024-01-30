@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroomfinder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="node.js">
+</head>
+<body>
+    <div id="map-container">
+        <!-- Plattegrond wordt hier weergegeven -->
+        <img>
+    </div>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Zoek een lokaal">
+        <button onclick="zoekRuimte()">Zoeken</button>
+    </div>
+    <div id="emergency-container">
+        <button onclick="toonNooduitgangen()">Toon Nooduitgangen</button>
+    </div>
+    <div id="info-container">
+        <h2>lokaalinfo</h2>
+        <p id="ruimte-info">Selecteer een ruimte voor lokaalinfo.</p>
+    </div>
+    <script src="node.js"></script>
+</body>
+</html>
+
