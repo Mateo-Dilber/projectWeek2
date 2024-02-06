@@ -34,3 +34,8 @@ body {
     background-color: #ddd;
     text-align: center;
 }
+
+.info-text{
+    padding: 20px;
+    text-align: center;
+}
